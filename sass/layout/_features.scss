@@ -1,0 +1,52 @@
+.s2 {
+    padding: 0 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    & p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.72;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin: 10px 0 0 0;
+    }
+
+    & h3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+        margin: 0;
+    }
+
+    & ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        & li {
+            width: 270px;
+            vertical-align: top;
+            list-style: none;
+        }
+
+        & li:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+}
+
+.svg-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+
+    margin-bottom: 30px;
+}
