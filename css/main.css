@@ -715,7 +715,7 @@ footer {
   padding-bottom: 30px;
 }
 .our-team__item img {
-  width: 100%;
+  display: block;
 }
 
 .our-team__item:not(:last-child) {
@@ -908,7 +908,7 @@ footer {
   transform: translateY(0);
 }
 .portfolio-link img {
-  width: 100%;
+  display: block;
 }
 
 .overlay-box {
