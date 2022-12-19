@@ -6,10 +6,11 @@ footer {
 .footer__container {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .footer-addres-box {
-    min-width: 231px;
+    min-width: 230px;
 }
 
 .logo-white {
@@ -123,7 +124,7 @@ footer {
 
 .subscribe-box {
     margin-left: 94px;
-    min-width: 570px;
+    width: 570px;
     display: flex;
     flex-wrap: wrap;
 
